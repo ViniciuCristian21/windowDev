@@ -1,0 +1,16 @@
+{
+  "name": "WindowDev",
+  "version": "1.0.0",
+  "description": "- uma janela mais limpa para executar server no navegador utilizando electron.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "npx electron-packager . --icon assets/dev.icns --out=packages"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^14.0.0"
+  }
+}
